@@ -18,14 +18,27 @@
         {
             "library": "jquery@3.5.1",
             "destination": "wwwroot/lib/jquery/"
+        },
+        {
+            "library": "jquery@3.5.1",
+            "destination": "wwwroot/lib/jquery/jquery/",
+            "files": [
+                "jquery.min.js"
+            ]
+        },
+        {
+            "library": "jquery-validate@1.19.2",
+            "destination": "wwwroot/lib/jquery-validation/",
+            "files": [
+                "jquery.validate.min.js"
+            ]
+        },
+        {
+            "library": "jquery-validation-unobtrusive@3.2.11",
+            "destination": "wwwroot/lib/jquery-validation-unobtrusive/",
+            "files": [
+                "jquery.validate.unobtrusive.min.js"
+            ]
         }
-    ,
-{
-  "library": "jquery@3.5.1",
-  "destination": "wwwroot/lib/jquery/jquery/",
-  "files": [
-    "jquery.min.js"
-  ]
-}
-]
+    ]
 }
